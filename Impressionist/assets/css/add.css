@@ -1,0 +1,27 @@
+/* Fonts */ 
+@import url('fonts.css');
+@import url('font_awesome.css');
+
+/* Grid */
+@import url('reset.css');
+@import url('bootstrap.css');
+
+/* General */
+@import url('buttons.css');
+@import url('general.css');
+
+/* Plugins */
+@import url('owl.carousel.css');
+
+/* Sections */
+@import url('header_nav.css');
+@import url('carosel.css');
+@import url('intro.css');
+@import url('content.css');
+@import url('content.css');
+@import url('footer.css');
+
+
+.wrap >.container-fluid {
+	max-width: 1000px;
+}

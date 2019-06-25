@@ -1,0 +1,75 @@
+section{background:#1e1e1e;}
+section #part-l{
+	display: inline-block;
+	width: 40%;
+	margin-bottom: 10px;
+}
+section h1 {
+	padding-top: 117px;
+	font-size: 56px;
+	font-family: 'neutonregular';
+	color: #666;
+	line-height: 57px;
+	display: inline-block;
+}
+section p {
+	font-size: 16px;
+	font-family: 'montserratregular';
+	color: #999;
+}
+section #part-r{
+	display: inline-block;
+ 	width: 60%;
+ 	float: right;
+ }
+ section #part-r img{
+ 	padding-top: 40px;
+ 	height: 400px;
+ 	width: 500px;
+ }
+section img{float: right;}
+section #shell{
+	z-index: 0;
+	width: 100%;
+	height: 470px;
+}
+section .inner-shell img{
+	height: 420px;
+	margin-top: 25px;
+}
+
+/*lg*/
+@media only screen and (max-width: 1200px){
+	section #part-l h1{padding-top: 80px}
+}
+/*md*/
+@media only screen and (max-width: 992px){
+	section #part-l h1{
+		font-size: 45px;
+		margin: 10px auto;
+		padding-top: 10px;
+	}
+	section #part-l p{font-size: 14px;}
+	section #part-l button{margin:5px auto;}
+	section #part-l {width: 25%}
+}
+/*sm*/
+@media only screen and (max-width: 768px){
+	section #part-r{display: none;}
+	section #part-l{
+		width: 100%;
+		text-align: center;
+	}
+	section #part-l p{
+		padding-top: 60px;
+		font-size: 16px;
+		line-height: 40px;
+	}
+}
+/*xs*/
+@media only screen and (max-width: 500px){
+		section #part-l p{
+		line-height: 20px;
+		padding-top: 15px;
+	}	
+}

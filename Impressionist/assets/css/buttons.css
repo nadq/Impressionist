@@ -1,0 +1,74 @@
+button {
+	background-color: #e2494b;
+	border-radius: 10px;
+	border:0px;
+	transition: 0.5s;
+}
+button:hover {
+	background:#c71f22;
+	box-shadow: 0px 0px 8px #f1a7a8;
+}
+button a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff !important;
+	font-family: 'montserratregular';
+}
+section button{
+	margin-top: 23px;
+	width: 127px;
+	height: 30px;
+	margin-bottom: 33px;
+}
+section button a{
+	font-size: 16px;
+	padding: 10px 0;
+}
+#intro button {
+	display: block;
+	margin: 0 auto 50px auto;
+	height: 30px;
+	width: 106px;
+}
+#intro button:hover {
+	box-shadow: 0px 0px 8px #4d001f;
+	background:#c71f22;
+}
+#intro button a {font-size: 13px;}
+#content button a{ 
+	font-size: 13px;
+	text-align: center; 
+}
+#content button {
+	height: 30px;
+	width: 106px;
+	display: block;
+ 	float: left;
+}
+#content button:hover {
+	box-shadow: 0px 0px 8px #4d001f;
+	background:#c71f22;
+}
+footer .col-lg-3 form button {
+
+	border-radius: 5px !important;
+	height: 30px;
+	width: 80px;
+}
+footer button:hover {
+	box-shadow: 0px 0px 8px #4d001f;
+	background:#c71f22;
+}
+footer .col-lg-3 form button a{
+	margin: 0 !important;
+	padding-right: 10px;
+
+	font-size: 13px;
+
+}
+button a:hover,
+button a:visited,
+button a:focus{
+	text-decoration: none;
+	color: #fff;
+}
